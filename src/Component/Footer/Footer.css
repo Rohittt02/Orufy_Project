@@ -1,0 +1,24 @@
+.footer-text {
+    color: black; /* Set default color to black */
+}
+
+.footer-text:hover {
+    color: #7A60CB; /* Change color on hover */
+}
+.Orufy-ft{
+    color: #7A60CB;
+}
+@media (max-width:425px) {
+    .fotter-logo-sec{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .footer-logo{
+        
+        height: auto;
+    }
+}
+.footer-bottom{
+    margin-top: -11%;
+}

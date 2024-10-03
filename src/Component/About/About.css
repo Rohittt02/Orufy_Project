@@ -1,0 +1,45 @@
+.card-text{
+    color: gray;
+}
+@media (max-width:425px) {
+    .lead{
+        display: none;
+    }
+    .leads{
+        text-align: center;
+    }
+}
+@media (max-width:425px) {
+    .lead{
+        text-align: center;
+    }
+    .our-history{
+        text-align: center;
+    }
+}
+@media (min-width:426px) {
+    .leads{
+        display: none;
+    }
+}
+.all-team{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.team-1{
+    width: 28%;
+}
+@media (max-width:768px) {
+    .team-1{
+        width: 30%;
+    }
+}
+@media (max-width:425px) {
+    .all-team{
+        flex-direction: column;
+    }
+    .team-1{
+        width: 100%;
+    }
+}

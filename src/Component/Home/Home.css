@@ -1,0 +1,14 @@
+.home{
+    display: flex;
+    align-items: center;
+    padding: 5.5% 0;
+    background-image: linear-gradient(to top, rgba(192, 174, 255, 0.32), white);
+}
+.crafted{
+    font-weight: 700;
+}
+@media (max-width:425px) {
+    .home{
+        text-align: center;
+    }
+}

@@ -1,0 +1,194 @@
+.contact {
+    display: flex;
+    align-items: center;
+    padding: 5.5% 0;
+    background-image: linear-gradient(to top, rgba(192, 174, 255, 0.32), white);
+}
+
+.form-contact {
+    width: 5.1vw;
+}
+
+.primary {
+    background-color: #7A60CB;
+    color: #fff;
+    padding: 8px 0;
+    border: none;
+    border-radius: 6px;
+}
+
+.calls {
+    display: flex;
+    gap: 10px;
+}
+
+.call {
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 15px;
+    line-height: 0;
+}
+
+.call:hover {
+    background-color: #7A60CB;
+    color: #fff;
+}
+
+.at {
+    width: 70%;
+}
+
+@media (max-width:1950px) {
+    .input-group-text {
+        width: 21%;
+    }
+}
+
+@media (max-width:1024px) {
+    .input-group-text {
+        width: 31%;
+    }
+}
+
+@media (max-width:768px) {
+    .input-group-text {
+        width: 43%;
+    }
+
+}
+
+@media (max-width:425px) {
+    .input-group-text {
+        width: 27%;
+    }
+
+    .calls {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+    }
+
+    .call {
+        width: 70%;
+    }
+
+    .at {
+        width: 100%;
+        text-align: center;
+    }
+
+    .us {
+        text-align: center;
+    }
+}
+
+@media (max-width:375px) {
+    .input-group-text {
+        width: 30%;
+    }
+}
+
+@media (max-width:320px) {
+    .input-group-text {
+        width: 37%;
+    }
+}
+
+.custom-btn {
+    border-color: #7A60CB;
+    color: #7A60CB;
+    padding: 5px 25px;
+}
+
+.custom-btn:hover {
+    background-color: #7A60CB;
+    color: white;
+}
+
+.help {
+    padding: 25px 0;
+    width: 23%;
+}
+
+@media (max-width:768px) {
+    .custom-btn {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .help .custom-btn {
+        margin: 0;
+        padding: 10px;
+    }
+
+    .help {
+        padding: 14px;
+    }
+}
+
+@media (max-width:425px) {
+    .helps {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .help {
+        width: 90%;
+    }
+}
+
+.custom-img {
+    height: auto;
+    width: 100%;
+}
+.chat-1 p{
+    width: 50%;
+}
+.btn-primarys{
+    background-color: #7A60CB;
+    color: #fff;
+}
+.btn-primarys:hover{
+    color: black;
+    border: 1px solid #7A60CB;
+}
+@media (max-width:425px){
+    .chat-1 p{
+        width: 100%;
+        text-align: center;
+    }
+    .connect{
+        text-align: center;
+    }
+    .abs{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* Office */
+
+.offices{
+    display: flex;
+    gap: 10px;
+}
+.private{
+    width: 80%;
+}
+.location{
+    color: #7A60CB;
+}
+.direction{
+    display: flex;
+    justify-content: center;
+}
+.map{
+    max-width: 100%;
+}
+@media (max-width:425px) {
+    .first-location{
+        width: 100%;
+    }
+}
